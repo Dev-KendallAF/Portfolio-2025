@@ -3,8 +3,8 @@
 
 :root
 {
-    --color-primary: #8f1b62;
-    --color-secondary: #70e000;
+    --color-primary: #ffb703;
+    --color-secondary: #00b4d8;
 
 }
 /*Page Desing*/
@@ -47,15 +47,33 @@ h1,h2,h3,h4,h5
 {
   color: var(--color-secondary);
 } 
-
+/*Solo en Ordenadores*/
 @media (min-width: 768px) 
 {
   .hero__aboutme 
   {
     padding: 0 10em;
   } 
+
+  .certifications__card
+  {
+    width: 200px;
+    height: 250px !important;
+
+  }
+  
+}
+/*Solo en Telefonos*/
+@media (max-width: 768px) 
+{
+.certifications__card
+{
+  width: 375px;
+  text-align: center;
+  height: 250px !important;
 }
 
+}
 /*Navbar*/
 .nav-item a:hover
 {
@@ -143,8 +161,8 @@ span.divider
   transition: width 0.5s ease-out;
   z-index: -1;
   background-color: var(--color-primary);
-  box-shadow:  20px 20px 60px #7a1753,
-             -20px -20px 60px #a41f71;
+  box-shadow:  20px 20px 60px var(--color-primary),
+             -20px -20px 60px var(--color-primary);
 }
 .btn__split.btn__split-secondary::before {
   content: '';
@@ -156,8 +174,8 @@ span.divider
   transition: width 0.5s ease-out;
   z-index: -1;
   background-color: var(--color-secondary);
-  box-shadow:  20px 20px 60px #70e000,
-             -20px -20px 60px #70e000;
+  box-shadow:  20px 20px 60px var(--color-secondary),
+             -20px -20px 60px var(--color-secondary),
 }
 .btn__split:hover::before {
   width: 100%; 
@@ -165,14 +183,14 @@ span.divider
 
 .btn__split.btn__split-primary:hover {
   color: #fff !important;
-  box-shadow:  2px 2px 30px #7a1753,
-  -2px -2px 10px #a41f71;
+  box-shadow:  2px 2px 30px var(--color-primary),
+  -2px -2px 10px var(--color-primary),
 }
 
 .btn__split.btn__split-secondary:hover {
   color: #fff !important;
-  box-shadow:  2px 2px 30px #70e000,
-  -2px -2px 10px #7ab63d;
+  box-shadow:  2px 2px 30px var(--color-secondary),
+  -2px -2px 10px var(--color-secondary);
 }
 
 /*Scroll*/

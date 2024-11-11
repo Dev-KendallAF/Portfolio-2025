@@ -16,7 +16,7 @@ class Navbar extends Component
             <div>
                 <nav className="navbar navbar-expand-sm  d-none d-sm-block py-3 px-5 fixed-top" style={{background:"#ffffff"}}>
                     <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Kendall Fern&aacute;ndez <span style={{fontWeight:'bold'}} className="ms-2"><i className="fa-solid fa-code"></i></span></a>
+                    <a className="navbar-brand" href="#">Kendall Fern&aacute;ndez <span style={{fontWeight:'bold'}} className="ms-2 color-secondary"><i className="fa-solid fa-code"></i></span></a>
                     <button
                         className="navbar-toggler"
                         type="button"

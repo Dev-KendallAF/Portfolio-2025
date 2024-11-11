@@ -8,7 +8,7 @@ class ScrollSpy extends Component  {
     state=
     {
       certifications: [
-        { title: 'Udemy',description:"Advanced React JS Fundamentals by Nicolas Schurmann", year: 2024, svg: './icons/udemy.svg',link:'#' },
+        { title: 'Udemy',description:"Advanced React JS Fundamentals by Nicolas Schurmann", year: 2024, svg: '/icons/udemy.svg',link:'#' },
         { title: 'Microsoft',description:"Professional Fundamentals of Data Analysis.", year: 2023, svg: './icons/microsoft.svg',link:'#' },
         { title: 'Microsoft',description:"Professional Fundamentals of Project Management", year: 2023, svg: './icons/microsoft.svg',link:'#' },
         { title: 'SCRUM Study',description:" Accreditation Body for Scrum and Agile", year: 2022, svg: './icons/scrum.svg',link:'https://drive.google.com/file/d/1kYKvJuh3bihRPZyAsRzbgz6l6BmDkS0k/view?usp=drive_link' },
@@ -25,7 +25,7 @@ class ScrollSpy extends Component  {
         <div className="row my-5">
           <div className="col-12 col-md-4">
           <h3>Get to know me </h3>
-          <p>I am a passionate web developer with a strong love for building and managing websites and web applications that drive success. I specialize in creating user-friendly, efficient, and scalable solutions that meet business goals and provide excellent user experiences.</p>
+          <p>I'm always in learning mode and continually expanding my skills to stay ahead in the rapidly evolving world of web development.</p>
 
             <ListGroup id="list-example" className='py-4'>
               <ListGroup.Item action href="#list-item-1">Skills</ListGroup.Item>
@@ -33,7 +33,7 @@ class ScrollSpy extends Component  {
               <ListGroup.Item action href="#list-item-3">Certifications</ListGroup.Item>
             </ListGroup>
           </div>
-          <div className="col-12 col-md-8 p-3 mt-5 mt-md-0 ">
+          <div className="col-12 col-md-8 p-sm-3 mt-5 mt-md-0 ">
             <div
               data-bs-spy="scroll"
               data-bs-target="#list-example"
@@ -41,7 +41,7 @@ class ScrollSpy extends Component  {
               className="scrollspy-example scroll_UI"
               tabIndex="0"
               
-              style={{ height: '500px', overflowY: 'scroll' }}  // Habilitar el desplazamiento
+              style={{ height: '300px', overflowY: 'scroll' }}  // Habilitar el desplazamiento
             >
             <div id="list-item-1">
                 <h4  className='mb-3'>Skills</h4>
@@ -65,13 +65,13 @@ class ScrollSpy extends Component  {
             <div id="list-item-2"> 
                 <h3 >Experiences</h3>
                 {/*Web Developer SP*/}
-                <div className='my-3'>
-                    <h5>Web Developer, Profesional Services</h5>
-                    <span className='color-primary'>May 2022 - Now</span>
-                    <p>Web developer with experience in creating custom websites and applications that adapt to client needs. Specialized in front-end design and development, handling React and other modern technologies. Skilled in managing projects from start to finish, including requirements research, interface design, performance optimization, and testing. Committed to delivering effective, high-quality solutions that combine functionality and visual appeal, ensuring an optimal user experience in every project.</p>
+                <div className='my-5'>
+                    <h5>Web Developer, Freelancer</h5>
+                    <span className='color-primary'>May 2022 - Present</span>
+                    <p>As a freelancer, I have dedicated myself to developing custom software solutions for small and large businesses in my community, taking more than 10 businesses to the next level in the digital age. My work has included everything from creating optimized and responsive multi-platform websites that increase visibility and attract potential customers, to image renovation and social media positioning strategies. My focus is on offering comprehensive solutions that transform the digital presence of each business and expand its reach.</p>
                 </div>
                 {/*IT Engineer AT*/}
-                <div className='my-3'>
+                <div className='my-5'>
                     <h5>IT engineer, Grupo Aduanero Tropical</h5>
                     <span className='color-primary'>May 2024 - October 2024</span>
                     <p>Improved problem resolution efficiency by 30%, optimizing troubleshooting
@@ -89,7 +89,7 @@ class ScrollSpy extends Component  {
                     <p className='fst-italic'>SQL Server 2016, SAP GUI 7.0, Power BI 2.137, Oracle Cloud</p>
                 </div>
                 {/*ASP.NET Developer AS*/}
-                <div className='my-3'>
+                <div className='my-5'>
                     <h5>Web Developer ASP.NET , ARCAVI Software</h5>
                     <span className='color-primary'>Octuber 2022 - March 2023</span>
                     <p>Arcavi Software is a company dedicated to providing innovative solutions,

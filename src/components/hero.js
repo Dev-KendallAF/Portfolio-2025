@@ -12,9 +12,10 @@ class Hero extends Component
             <div className="container-fluid hero position-relative">
                 <div className="row ">
                     <div className="col-12 text-center">
-                        <h1>Hi I'm Kendall Fern&aacute;ndez </h1>
+                        <h1>Hi I'm <span className="color-secondary">Kendall Fern&aacute;ndez </span></h1>
                         <span className="divider"></span>
-                        <p className="hero__aboutme">A Result-Oriented Web Developer building and managing WebSites and Web Applications that leads to the success of the overall product</p>
+                        <p className="hero__aboutme">Welcome to my portfolio, I am a lover of technology and web design. I like to create solid and scalable frontend products with excellent user experiences.
+                        </p>
                     </div>
                     <div className="col-12 text-center">
                         <button className="btn btn__split  btn__split-secondary px-5 py-3 m-3">Projects</button>
