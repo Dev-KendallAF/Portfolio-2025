@@ -11,7 +11,7 @@ class ScrollSpy extends Component  {
     state=
     {
       certifications: [
-        { title: 'Udemy',description:"Advanced React JS Fundamentals by Nicolas Schurmann", year: 2024, svg: '/icons/udemy.svg',link:'#' },
+        { title: 'Udemy',description:"Advanced React JS Fundamentals by Nicolas Schurmann", year: 2024, svg: 'https://cdn.worldvectorlogo.com/logos/udemy-wordmark-1.svg',link:'#' },
         { title: 'Microsoft',description:"Professional Fundamentals of Data Analysis.", year: 2023, svg: './icons/microsoft.svg',link:'#' },
         { title: 'Microsoft',description:"Professional Fundamentals of Project Management", year: 2023, svg: './icons/microsoft.svg',link:'#' },
         { title: 'SCRUM Study',description:" Accreditation Body for Scrum and Agile", year: 2022, svg: './icons/scrum.svg',link:'https://drive.google.com/file/d/1kYKvJuh3bihRPZyAsRzbgz6l6BmDkS0k/view?usp=drive_link' },
@@ -75,14 +75,14 @@ class ScrollSpy extends Component  {
     render(){
 
       return (
-        <div className="row my-5">
-          <div className="col-12 col-md-4">
-          <h3>Get to know me </h3>
-          <p>I'm always in learning mode and continually expanding my skills to stay ahead in the rapidly evolving world of web development.</p>
+        <div className="row my-5" id='about'>
+          <div className="col-12 col-md-4 p-sm-3">
+          <h3 data-aos="zoom-out-right">Get to know me </h3>
+          <p data-aos="zoom-out-right">I'm always in learning mode and continually expanding my skills to stay ahead in the rapidly evolving world of web development.</p>
 
-            <ListGroup id="list-example" className='py-4'>
+            <ListGroup id="list-example" data-aos="fade-up" data-aos-duration="1000" className='py-4'>
               <ListGroup.Item action href="#list-item-1">Skills</ListGroup.Item>
-              <ListGroup.Item action href="#list-item-2">Experiences</ListGroup.Item>
+              <ListGroup.Item action href="#list-item-2">Experience</ListGroup.Item>
               <ListGroup.Item action href="#list-item-3">Certifications</ListGroup.Item>
             </ListGroup>
           </div>
@@ -97,15 +97,15 @@ class ScrollSpy extends Component  {
               style={{ height: '400px', overflowY: 'scroll' }}  // Habilitar el desplazamiento
             >
             <div id="list-item-1">
-                <h4  className='mb-3'>Skills</h4>
-                <p>I have worked on different projects, gaining skills and knowledge in the following web development technologies</p>
+                <h4  className='mb-3' data-aos="fade-right"  data-aos-duration="1000">Skills</h4>
+                <p data-aos="zoom-in-right"  data-aos-duration="1000">I have worked on different projects, gaining skills and knowledge in the following web development technologies</p>
                 <div className="d-flex  mb-3 flex-wrap gap-3 mb-5 me-md-5">
                 <Skills skills={this.state.skills}/>                    
                 </div>
             </div>
 
             <div id="list-item-2"> 
-                <h3 >Experience</h3>
+                <h3 data-aos="fade-right"  data-aos-duration="1000">Experience</h3>
                 <Experience exp={this.state.experiences} />
             </div>   
 

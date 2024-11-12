@@ -7,8 +7,8 @@ class Experience extends Component {
 
     return (
         exp.map((exp) =>
-            <div className='my-5' key={exp.position + exp.company}>
-                <h5>{exp.position}, {exp.company}</h5>
+            <div className='my-5'  key={exp.position + exp.company}>
+                <h5 >{exp.position}, {exp.company}</h5>
                 <span className='color-primary'>{exp.start} - {exp.end}</span>
                 <p>{exp.description}</p>
                 {/* Verificar si activity no está vacío */}

@@ -4,7 +4,7 @@ class CertificationCard extends Component {
   render() {
     const { certification } = this.props;
     return (
-        <a  href={certification.link} target="_blank" style={{textDecoration:"none",cursor:"pointer"}}>
+        <a  href={certification.link}   {...certification.link !== '#' ? { target: "_blank" } : {}} style={{textDecoration:"none",cursor:"pointer"}}>
         <div className="card ms-mb-0 certifications__card" >
             <img src={certification.svg}  className='img-fluid px-5 mt-5' style={{height:"80px" }}   alt="logo-certification"/>
             <div className="card-body">
