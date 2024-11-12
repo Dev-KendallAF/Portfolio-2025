@@ -19,9 +19,6 @@ class App extends Component {
         <Hero />
         <About />
         <ScrollToTopButton />
-        <Hero />
-        <Hero />
-        <Hero />
 
         <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="wave__background" viewBox="0 0 100 100">
           <path fill="#f1f1f1" class="wave-1" d="m38.52809,-5c-12.1832,-9.7 -32.04489,-14.1 -47.29949,-5c-19.75931,11.8 -24.05926,41.1 -10.85226,59c15.86888,21.5 53.8518,22 68.79926,2.3c12.28558,-16.3 6.44993,-42.8 -10.6475,-56.3z"></path>
