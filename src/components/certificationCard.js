@@ -3,7 +3,6 @@ import { Component } from 'react'
 class CertificationCard extends Component {
   render() {
     const { certification } = this.props;
-    console.log(certification);
     return (
         <a  href={certification.link} target="_blank" style={{textDecoration:"none",cursor:"pointer"}}>
         <div className="card ms-mb-0 certifications__card" >
