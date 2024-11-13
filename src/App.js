@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/navbar.js';
 import Hero from './components/hero.js';
 import About from './components/about.js';
+import Projects from './components/projects.js';
 import ScrollToTopButton from './components/scrolltoTop.js';
 import AOS from 'aos';
 
@@ -18,6 +19,8 @@ class App extends Component {
         <Navbar />
         <Hero />
         <About />
+        <Projects></Projects>
+        
         <ScrollToTopButton />
 
         <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="wave__background" viewBox="0 0 100 100">

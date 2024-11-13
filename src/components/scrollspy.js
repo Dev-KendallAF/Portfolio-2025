@@ -96,7 +96,7 @@ class ScrollSpy extends Component  {
               
               style={{ height: '400px', overflowY: 'scroll' }}  // Habilitar el desplazamiento
             >
-            <div id="list-item-1">
+            <div id="list-item-1" className='px-4 p-sm-0'>
                 <h4  className='mb-3' data-aos="fade-right"  data-aos-duration="1000">Skills</h4>
                 <p data-aos="zoom-in-right"  data-aos-duration="1000">I have worked on different projects, gaining skills and knowledge in the following web development technologies</p>
                 <div className="d-flex  mb-3 flex-wrap gap-3 mb-5 me-md-5">
@@ -104,12 +104,12 @@ class ScrollSpy extends Component  {
                 </div>
             </div>
 
-            <div id="list-item-2"> 
+            <div id="list-item-2" className='px-4 p-sm-0'> 
                 <h3 data-aos="fade-right"  data-aos-duration="1000">Experience</h3>
                 <Experience exp={this.state.experiences} />
             </div>   
 
-            <div id="list-item-3">
+            <div id="list-item-3" className='px-2 p-sm-0'>
                 <h4>Certifications</h4>
                 <div className="d-flex  mb-3 flex-wrap gap-3 mb-5 ">
                   <TitleCertifications certifications={this.state.certifications}/>                    
