@@ -70,7 +70,7 @@ class Navbar extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="#projects">
                     <i className="fa-solid fa-laptop"></i> Projects
                   </a>
                 </li>
@@ -93,7 +93,7 @@ class Navbar extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-3 navbar-mobile__item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#projects">
                   <i className="fa-solid fa-laptop"></i> <span>Projects</span>
                 </a>
               </div>

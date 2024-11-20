@@ -3,8 +3,6 @@ import { Component } from 'react'
 class Experience extends Component {
   render() {
     const { exp } = this.props;
-    console.log(exp)
-
     return (
         exp.map((exp) =>
             <div className='my-5'  key={exp.position + exp.company}>

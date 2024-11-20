@@ -14,9 +14,9 @@ class Project extends Component {
         return (
             projects.map((p,index) =>
                 <div key={index} className="container mt-5 p-4">
-                    <div className="row" style={{ marginBottom: "10em" }}>
+                    <div className="row" style={{ marginBottom: "5em" }}>
                         <div className="col-12 col-md-6" style={{ marginBottom: "-5em" }}>
-                            video
+                            <ProjectVideo url={p.url} />
                         </div>
                         <div className="col-12 col-md-6 " >
                             <ProjectDescription title={p.title} description={p.description} techstack={p.techstack} />

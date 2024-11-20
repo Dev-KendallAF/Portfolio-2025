@@ -6,6 +6,7 @@ import About from './components/about.js';
 import Portfolio from './components/portfolio.js';
 import ScrollToTopButton from './components/scrolltoTop.js';
 import AOS from 'aos';
+import Footer from './components/footer.js';
 
 class App extends Component {
   render() {
@@ -20,7 +21,7 @@ class App extends Component {
         <Hero />
         <About />
         <Portfolio/>
-        
+        <Footer/>
         <ScrollToTopButton />
 
         <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" className="wave__background" viewBox="0 0 100 100">

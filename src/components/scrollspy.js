@@ -1,4 +1,4 @@
-import { Component,useEffect, version } from 'react'
+import { Component } from 'react'
 
 import { ListGroup } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -105,7 +105,7 @@ class ScrollSpy extends Component  {
             </div>
 
             <div id="list-item-2" className='px-4 p-sm-0'> 
-                <h3 data-aos="fade-right"  data-aos-duration="1000">Experience</h3>
+                <h3 data-aos="fade-right"className='mt-5'  data-aos-duration="1000">Experience</h3>
                 <Experience exp={this.state.experiences} />
             </div>   
 

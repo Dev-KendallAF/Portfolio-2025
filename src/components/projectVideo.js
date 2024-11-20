@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectVideo = ({ url }) => (
-  <div style={{ width: '100%', maxWidth: '400px', position: 'relative' }}>
+  <div  style={{ width: '100%', maxWidth: '400px', position: 'relative' }}>
     <svg
       viewBox="0 0 200 220"
       xmlns="http://www.w3.org/2000/svg"
