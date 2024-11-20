@@ -18,7 +18,7 @@ class Hero extends Component
                         <TypeWriter text="Welcome to my portfolio, I am a lover of technology and web design. I like to create solid and scalable frontend products with excellent user experiences." className="hero__aboutme" data-aos="fade-up"  as="p" />
                     </div>
                     <div className="col-12 text-center">
-                        <button className="btn btn__split  btn__split-secondary px-5 py-3 m-3" data-aos="zoom-in-up" data-aos-duration="1000">Projects</button>
+                        <a className="btn btn__split  btn__split-secondary px-5 py-3 m-3" href="#projects" data-aos="zoom-in-up" data-aos-duration="1000">Projects</a>
                     </div>
                 </div>
                 <SocialButton />
