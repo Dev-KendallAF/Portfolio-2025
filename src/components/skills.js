@@ -5,7 +5,7 @@ class Skills extends Component {
     const { skills } = this.props;
     return (
         skills.map((skill,i) =>
-            <div className="p-2 btn btn__split btn__split-secondary" data-aos="fade-down" data-aos-duration={`${i}00`}>{skill.name}</div>
+            <div key={i} className="p-2 btn btn__split btn__split-secondary" data-aos="fade-down" data-aos-duration={`${i}00`}>{skill.name}</div>
             )
     );
   }

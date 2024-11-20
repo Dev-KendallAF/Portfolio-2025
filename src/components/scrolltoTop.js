@@ -40,7 +40,7 @@ const ScrollToTopButton = () => {
       }}
       className="btn btn-outline-dark d-none d-sm-block"
     >
-      <i class="fa-solid fa-chevron-up"></i>
+      <i className="fa-solid fa-chevron-up"></i>
     </button>
   );
 };
