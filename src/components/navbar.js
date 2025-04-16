@@ -75,7 +75,7 @@ class Navbar extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7261960608407777281/">
+                  <a className="nav-link" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7311872701718036481/">
                     <i className="fa-solid fa-file"></i> Resume
                   </a>
                 </li>
@@ -98,7 +98,7 @@ class Navbar extends Component {
                 </a>
               </div>
               <div className="col-3 navbar-mobile__item">
-                <a className="nav-link" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7261960608407777281/">
+                <a className="nav-link" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7311872701718036481/">
                   <i className="fa-solid fa-file"></i> <span>Resume</span>
                 </a>
               </div>
